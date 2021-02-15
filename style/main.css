@@ -12,7 +12,7 @@
 
 body{
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial;
     color: white;
 }
 
@@ -80,6 +80,8 @@ header nav a:hover{
 
     cursor: pointer;
     transition: .3s;
+
+    margin-bottom: 5%;
 }
 
 .botao:hover{
@@ -91,10 +93,12 @@ header nav a:hover{
 
 .botao i{
     margin-right: 5px;
+   
 }
 
 .container{
     margin: 20px;
+   
 }
 
 .filme-principal . .container{
@@ -105,4 +109,8 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrossel-filmes{
+    margin-top: 5px;
 }
